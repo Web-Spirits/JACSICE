@@ -1,0 +1,56 @@
+.con .con-topic h1{
+    text-align: center;
+    padding-top: 15px;
+}
+#Dept{
+    color: white;
+    font-weight: bold;
+}
+
+
+.con{
+    height:100vh;
+    width: 100vw;
+    background-image: url('');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    }
+    
+.depts{
+    height: 30%;
+    width: 30%;
+    background-color: blueviolet;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.SH{
+    background-image: url('../img/S&H.webp');
+}
+
+.CSE{
+    background-image: url('../img/cse.png');
+}
+.IT{
+    background-image: url('../img/it.jpg');
+}
+.ECE{
+    background-image: url('../img/ece.jpg');
+}
+.MECH{
+    background-image: url('../img/mech.webp');
+}
+
+.circuit{
+
+}
+
+.common{
+    
+
+}

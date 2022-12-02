@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+margin:0;
+padding:0;
+}
+
+
+/*------------------------  Bdy-START ---------------------------------------------------*/
+.bdy{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*--------------------------  Bdy - END  ----------------------------------------------------*/
+
+/*--------------------------  Menu-START --------------------------------------------------*/
+
+.topic{
+font-family: 'Merriweather', serif;
+text-align:center;
+padding:10px;
+text-shadow: 2px 2px 15px rgb(53, 52, 52);
+display: inline;
+}
+
+ul li a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+font-size:20px;
+font-family: 'Poppins', sans-serif;
+}
+
+ul li a:hover{
+text-decoration:none;
+color:#b2bec3;
+font-weight:bold;
+font-size:20px;
+}
+
+ul li a:active{
+text-decoration:none;
+color:white;
+font-weight:bold;
+font-size:20px;
+}
+
+li{
+display:inline;
+padding:10px;
+}
+
+.menu{
+height:50px;
+width:100%;
+background-color: #6a89cc;
+padding-top:20px;
+position:sticky;
+}
+
+nav{
+    display: flex;
+}
+
+.btn{
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;   
+    background-color: lightgreen;
+    border: none;
+    color: rgb(62, 8, 255);
+    font-size: 17px; 
+    cursor: pointer;
+}
+/*------------------------  Menu-END ---------------------------------------------------*/
+
+
+
+
+/* -----------------------  Footer-START  -----------------------------------------------*/
+.footer{
+    height:140px;
+    width:100%;
+    background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+}
+
+.box{
+    width: 33%;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 15px;
+}
+
+.box h3{
+    text-align: center;
+    padding: 3px;
+}
+
+.box address{
+    padding: 5px;
+}
+
+.mobile p a{
+    color: black;
+    text-decoration: none;
+   /* display: flex;
+    justify-content: center;
+   */
+}
+.mobile p{
+    text-align: center;
+}
+
+.cont{
+    display: flex;
+}
+
+.social{
+    padding: 0px;
+    width: 50%;
+    background-color: aquamarine;
+}
+
+.mobile{
+    width: 50%;
+    background-color: #2c2ec2;
+}
+
+.social a svg{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 30%;
+    
+}
+
+.twit{
+    color: #00acee;
+}
+
+.fb{
+    color: #6a89cc;
+}
+
+.insta{
+    color: rgb(224, 63, 171);
+}
+
+.linked{
+    color: #2a5298;
+}
+/* -----------------------  Footer-END  -----------------------------------------------*/
+
+.no{
+    padding: 0;
+}
+
+.mobile svg{
+    width: 20px;
+    height: 20px;
+    color: antiquewhite;
+}
+
+.soc{
+    padding: 3%;
+}
