@@ -53,7 +53,7 @@ function pswd()
 	if (log_pswd==localStorage.getItem("ls_pswd")) 
 		{
 			alert("Login Success");
-			window.open("../JACSICE/html/jacsice.html")
+			window.open("../html/jacsice.html")
 		} else {
 			alert("Invalid Password");
 		}
