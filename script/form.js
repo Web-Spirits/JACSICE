@@ -53,7 +53,7 @@ function pswd()
 	if (log_pswd==localStorage.getItem("ls_pswd")) 
 		{
 			alert("Login Success");
-			window.open("/home/mageshh/Desktop/Project/JACSICE-main/Project/html/jacsice.html")
+			window.open("https://web-spirits.github.io/JACSICE/html/jacsice.html")
 		} else {
 			alert("Invalid Password");
 		}
